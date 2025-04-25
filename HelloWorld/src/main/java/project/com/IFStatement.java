@@ -9,8 +9,10 @@ public class IFStatement {
         boolean flag = scanner.nextBoolean();
         if (flag) {
             System.out.println("Flag is true");
+            System.out.println("You are ready  to rock");
         } else {
             System.out.println("flag is false");
+            System.out.println("You need to wait");
         }
     }
 }
